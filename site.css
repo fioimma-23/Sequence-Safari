@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+
+body {
+    background-color: #172601;
+    font-family: 'SERIF', cursive;
+    font-size: 10px;
+
+}
+
+header  {
+
+}
+
+.center {
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+#game-container {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#game-title {
+    color: #D9863D;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#canvas {
+    border: .3125rem solid #85A60F;
+}
+
+#score-container {
+    justify-content: space-between;
+}
+
+.current-score-container, .high-score-container {
+    color: #85A60F;
+    margin-bottom: .05rem;
+}
+
+#current-score-title, #high-score-title {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0;
+}
+
+#current-score-count, #high-score-count {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0;
+    padding-left: .5rem;
+}

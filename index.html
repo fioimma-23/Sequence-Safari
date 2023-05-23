@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+  <div id="game-container" >
+    <header>
+      <h1 id="game-title">Snake Game</h1>
+      <div id="score-container" class="flex">
+        <div class="current-score-container">
+          <h3 id="current-score-title">Score:</h3>
+          <p id="current-score-count">0</p>
+        </div>
+        <div class="high-score-container">
+          <h3 id="high-score-title">High Score:</h3>
+          <p id="high-score-count">0</p>
+        </div>
+      </div>
+
+    </header>
+    <main class="flex center">
+      <canvas id="canvas" width="400" height="400"></canvas>
+    </main>
+  </div>
+    <script src="js/game.js"></script>
+  </body>
+</html>
